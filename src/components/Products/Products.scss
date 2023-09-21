@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'PR';
+    src: url('../../assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+.product{
+    padding: 100px 70px;
+    &__sort{
+        &-exp{
+            padding: 13px;
+            &.active{
+                background: grey;
+            }
+        }
+        &-cheap{
+            padding: 13px;
+            &.active{
+                background: grey;
+            }
+        }
+        
+        &s{
+            display: flex;
+            margin-bottom: 100px;
+
+        }
+    }
+    &__item{
+        background: white;
+        padding: 15px;
+        position: relative;
+
+        
+        &s{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,1fr);
+            gap: 30px;
+        }
+        &-title{
+            text-transform: capitalize;
+        }
+        &-img{
+            width: 300px;
+            height: 150px;
+            object-fit: cover;
+            transition: .4s
+        }
+        &-button{
+            text-decoration: none;
+            background: #BABABA;
+            position: absolute;
+            right: 10px;
+            bottom: 50px;
+            padding: 5px 10px;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+    &id{
+        padding: 50px 70px;
+        display: flex;
+        gap: 30px;
+        &-add{
+            border-radius: 10px;
+            padding: 10px;
+
+            &:first-child {
+                margin-top: 15px;
+            }
+        }
+        &__left{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__cart{
+            display: flex;
+            border: #000;
+            &-number{
+                color: white;
+                background: #000;
+                padding: 3px 10px;
+                cursor: pointer;
+            }
+            &-button{
+                &-m,&-p{
+                    background: white;
+                    padding: 0 13px;
+                    
+                }
+                &-m{
+                    border-top-left-radius: 40%;
+                    border-bottom-left-radius: 40%;
+                    cursor: pointer;
+                }
+                &-p{
+                    border-top-right-radius: 40%;
+                    border-bottom-right-radius: 40%;
+                    cursor: pointer;
+                } 
+            }
+        }
+    }
+}
+
+.pagination{
+    font-family: 'PR';
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+    align-items: center;
+    &__button{
+        padding: 5px 15px;
+        text-transform: uppercase;
+      }
+    &__span{
+       color: white;
+       font-size: 30px;
+       font-family: Arial;
+    }
+  }
+  

@@ -1,0 +1,30 @@
+.nav{
+    &__home img{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+    }
+    &__cart{  
+        position: relative;
+        & img{
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            
+        }
+        &-length{
+            position: absolute;
+            padding: 5px 13px;
+            font-size: 13px;
+            bottom: -14px;
+            right: -14px;
+            border-radius: 50%;
+            background: black;
+            color: #fff;
+        }
+    }
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}

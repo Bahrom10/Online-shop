@@ -1,0 +1,18 @@
+@import './fonts.scss',
+        './css/Navbar.scss',
+        '@/components/Products/Products.scss',
+        './css/Cart.scss';
+
+
+
+
+body{
+    background: rgba(186,186,186,255);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PR";
+    font-weight: 400;
+  }
