@@ -50,8 +50,7 @@ const sum = () => {
         totalsum += element.price * element.amount 
     })
 
-    return totalsum
-    
+    return totalsum.toFixed(2)
 }
 
 

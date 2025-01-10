@@ -3,7 +3,7 @@
     <div class="productid__cart">
       <button
         class="productid__cart-button-m"
-        :disabled="el?.amount == 0"
+        :disabled="el?.amount < 2"
         @click="decrementAmount()"
       >
         -
