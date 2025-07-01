@@ -1,7 +1,7 @@
 <template>
     <nav class="nav">
-        <router-link to="/" class="nav__home"><img src="../assets/images/home.png" alt=""></router-link>
-        <router-link to="/cart" class="nav__cart"><img src="../assets/images/cart.png" alt=""> <p class="nav__cart-length" v-if="cart.items.length">{{ cart.items.length }}</p></router-link>
+        <router-link to="/Online-shop/" class="nav__home"><img src="../assets/images/home.png" alt=""></router-link>
+        <router-link to="/Online-shop/cart" class="nav__cart"><img src="../assets/images/cart.png" alt=""> <p class="nav__cart-length" v-if="cart.items.length">{{ cart.items.length }}</p></router-link>
 
     </nav>
 </template>

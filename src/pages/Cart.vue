@@ -10,7 +10,7 @@
     <div class="cart__items">
         <div class="cart__item-titles">
             <h2 class="cart__item-title">Product Name</h2>
-            <router-link :to="`/product/${ cartItem.id }`" class="cart__item-title" v-for="(cartItem,) in cartItems" :key="cartItem.id">{{ cartItem.title }}</router-link>
+            <router-link :to="`/Online-shop/product/${ cartItem.id }`" class="cart__item-title" v-for="(cartItem,) in cartItems" :key="cartItem.id">{{ cartItem.title }}</router-link>
         </div>
         <div class="cart__item-prices">
             <h2 class="cart__item-price">Price</h2>

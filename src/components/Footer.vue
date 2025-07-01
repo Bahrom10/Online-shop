@@ -1,28 +1,28 @@
 <template>
     <footer class="footer">
       <div class="footer__socials">
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-1.svg" alt="" />
         </a>
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-2.svg" alt="" />
         </a>
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-3.svg" alt="" />
         </a>
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-4.svg" alt="" />
         </a>
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-5.svg" alt="" />
         </a>
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-6.svg" alt="" />
         </a>
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-7.svg" alt="" />
         </a>
-        <a href="" class="footer__socials-link">
+        <a href="#" class="footer__socials-link">
           <img src="@/assets/images/footer-8.svg" alt="" />
         </a>
       </div>

@@ -8,7 +8,7 @@
 
         </div>
         <div class="product__item-right">
-            <router-Link :to="`/product/${product.id}`" class="product__item-button">Buy</router-Link>
+            <router-Link :to="`/Online-shop/product/${product.id}`" class="product__item-button">Buy</router-Link>
         </div>
     </div>
 </template>
